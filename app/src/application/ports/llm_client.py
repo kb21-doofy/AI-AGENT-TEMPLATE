@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 
-from src.domain.entities.message import Message
-from src.domain.entities.tool_call import ToolCall
+from app.src.domain.entities.message import Message
+from app.src.domain.entities.tool_call import ToolCall
 
 
 @dataclass

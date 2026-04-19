@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from src.domain.entities.conversation import Conversation
+from app.src.domain.entities.conversation import Conversation
 
 
 class ConversationRepository(ABC):

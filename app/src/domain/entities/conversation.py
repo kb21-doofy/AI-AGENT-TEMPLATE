@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from uuid import uuid4
 
-from src.domain.entities.message import Message
+from app.src.domain.entities.message import Message
 
 
 @dataclass

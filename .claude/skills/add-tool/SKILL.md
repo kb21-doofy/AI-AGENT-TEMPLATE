@@ -17,12 +17,12 @@ allowed-tools: Read Write Glob
 
 ## 生成するファイル
 
-1. `src/infrastructure/tools/<tool_name>.py` — ToolPort継承の実装クラス
+1. `app/src/infrastructure/tools/<tool_name>.py` — ToolPort継承の実装クラス
 
 ## 実装テンプレート
 
 ```python
-from src.application.ports.tool_port import ToolPort
+from app.src.application.ports.tool_port import ToolPort
 
 class <ToolName>(ToolPort):
     def execute(self, **kwargs) -> dict:

@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
 from uuid import uuid4
 
-from src.domain.value_objects.agent_role import AgentRole
-from src.domain.value_objects.llm_config import LlmConfig
+from app.src.domain.value_objects.agent_role import AgentRole
+from app.src.domain.value_objects.llm_config import LlmConfig
 
 
 @dataclass
