@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvicorn*)",
+      "Bash(uv*)",
+      "Bash(docker*)",
+      "Bash(python*)",
+      "Bash(pytest*)",
+      "Bash(ruff*)",
+      "Bash(mypy*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git status*)",
+      "Bash(git branch*)",
+      "Bash(ls*)",
+      "Bash(find*)",
+      "Bash(cat*)"
+    ],
+    "deny": []
+  }
+}
