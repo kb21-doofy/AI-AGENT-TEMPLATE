@@ -1,0 +1,18 @@
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+
+# uv
+.python-version
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
